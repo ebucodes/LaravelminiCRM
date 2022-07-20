@@ -1,4 +1,4 @@
-<img class="image-responsive" src="{{ $company->logo ? asset('public' . $company->logo) : 'http://via.placeholder.com/100x100'  }}""  alt="" style="">
+<img class="image-responsive" src="{{ $company->logo ? asset('/public/' . $company->logo) : 'http://via.placeholder.com/100x100'  }}""  alt="" style="">
 
 {{-- <div class="offset-md-1 col-md-3">
     <div class="form-group">
