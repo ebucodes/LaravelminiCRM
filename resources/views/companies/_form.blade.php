@@ -9,8 +9,8 @@
             </div>
             <div class="fileinput-preview fileinput-exists img-thumbnail" style="max-width: 150px; max-height: 150px;"></div>
             <div class="mt-2">
-                <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="logo" accept="image/*"></span>
-                <a href="#" class="btn btn-outline-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
+                <span class="btn btn-outline-secondary btn-file"><span class="fileinput-new">Select new image</span><span class="fileinput-exists"></span><input type="file" name="logo" accept="image/*"></span>
+                <a href="#" class="btn btn-secondary fileinput-exists" data-dismiss="fileinput">Remove</a>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
       <div class="form-group row mb-0">
         <div class="col-md-9 offset-md-3">
             <button type="submit" class="btn btn-primary">{{ $company->exists ? 'Update' : 'Save'}}</button>
-            <a href="{{ route('companies.index') }}" class="btn btn-outline-secondary">Cancel</a>
+            <a href="{{ route('companies.index') }}" class="btn btn-secondary">Back</a>
         </div>
       </div>
     </div>
