@@ -19,5 +19,7 @@
 8. Run $ php artisan serve to begin.
 
 Login Details
+
 Email Address: admin@admin.com
+
 Password: password
