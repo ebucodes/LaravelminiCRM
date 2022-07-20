@@ -14,9 +14,9 @@
 
 6. Run $ php artisan migrate --seed to run auto populate your database.
 
-7. Run $php artisan db::seed --class=UserTableSeeder to add your login creditals.
+7. Run $ php artisan db::seed --class=UserTableSeeder to add your login creditals.
 
-8. Run $php artisan serve to begin.
+8. Run $ php artisan serve to begin.
 
 Login Details
 Email Address: admin@admin.com
